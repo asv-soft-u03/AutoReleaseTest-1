@@ -1,0 +1,199 @@
+{
+  "MapServiceConfig": {
+    "MapProviderName": "OpenCycleMap"
+  },
+  "TakePageLength": 25,
+  "ThemeServiceConfig": {
+    "Theme": "Dark"
+  },
+  "ParamsConfig": {
+    "Params": []
+  },
+  "Bearing": 0,
+  "FlightSdrViewModelConfig": {
+    "GpFrequencyInMhz": "108",
+    "LlzFrequencyInMhz": "108",
+    "VorFrequencyInMhz": "108",
+    "LlzChannel": null,
+    "VorChannel": null,
+    "WriteFrequency": 5.0,
+    "ThinningFrequency": 5
+  },
+  "DdmLlz": 0,
+  "Altitude": 0,
+  "SdrStorePageViewModelConfig": {
+    "PageSizeToDownloadRecords": 5,
+    "DownloadRecordResponseTimeoutMs": 300
+  },
+  "Degree": 0,
+  "TemplaterViewModelConfig": {
+    "TemplatePath": null,
+    "ResultPath": null
+  },
+  "FieldStrength": 0,
+  "Frequency": 0,
+  "TakeOffViewModelConfig": {
+    "TakeOffAltitudeMeter": 300.0
+  },
+  "Longitude": 0,
+  "Velocity": 0,
+  "Latitude": 0,
+  "SdrStoreServiceConfig": {
+    "FileCacheTimeMs": 10000
+  },
+  "Power": 0,
+  "FlightPageViewModelConfig": {
+    "Zoom": 12.0,
+    "MapCenter": {
+      "Longitude": 61.5315055847168,
+      "Latitude": 55.293387838506746,
+      "Altitude": 0.0
+    }
+  },
+  "LocalizationServiceConfig": {
+    "CurrentLanguage": "ru"
+  },
+  "CoordinatesCalculatorViewModelConfig": {
+    "SelectedFromAltUnitIndex": 0,
+    "SelectedToAltUnitIndex": 0,
+    "SelectedFromLatLongUnitIndex": 0,
+    "SelectedToLatLongUnitIndex": 0,
+    "SelectedFromStandardIndex": 0,
+    "SelectedToStandardIndex": 0,
+    "Latitude": null,
+    "Longitude": null,
+    "Altitude": null
+  },
+  "LogServiceConfig": {},
+  "SoundNotificationServiceConfig": {},
+  "MavlinkDeviceServiceConfig": {
+    "Ports": [
+      {
+        "ConnectionString": "tcp://127.0.0.1:5762",
+        "Name": "SITL connection",
+        "IsEnabled": true
+      },
+      {
+        "ConnectionString": "tcp://172.16.0.1:7341",
+        "Name": "Base station",
+        "IsEnabled": true
+      }
+    ],
+    "SystemId": 254,
+    "ComponentId": 254,
+    "HeartbeatRateMs": 1000,
+    "DeviceHeartbeatTimeoutMs": 60000,
+    "Vehicle": {
+      "MavDataStreamAllRateHz": 1,
+      "MavDataStreamExtendedStatusRateHz": 1,
+      "MavDataStreamPositionRateHz": 1,
+      "Command": {
+        "CommandTimeoutMs": 5000,
+        "CommandAttempt": 5
+      },
+      "Missions": {
+        "CommandTimeoutMs": 1000,
+        "AttemptToCallCount": 3
+      },
+      "Params": {
+        "ReadListTimeoutMs": 5000,
+        "ReadAttemptCount": 3,
+        "ReadTimeouMs": 1000
+      },
+      "Heartbeat": {
+        "HeartbeatTimeoutMs": 2000,
+        "LinkQualityWarningSkipCount": 3,
+        "RateMovingAverageFilter": 3
+      },
+      "RequestInitDataDelayAfterFailMs": 5000
+    },
+    "Gbs": {
+      "Command": {
+        "CommandTimeoutMs": 5000,
+        "CommandAttempt": 5
+      },
+      "Params": {
+        "ReadListTimeoutMs": 5000,
+        "ReadAttemptCount": 3,
+        "ReadTimeouMs": 1000
+      },
+      "SerialNumberParamName": "BRD_SERIAL_NUM",
+      "Heartbeat": {
+        "HeartbeatTimeoutMs": 2000,
+        "LinkQualityWarningSkipCount": 3,
+        "RateMovingAverageFilter": 3
+      },
+      "RequestInitDataDelayAfterFailMs": 5000
+    },
+    "Sdr": {
+      "Command": {
+        "CommandTimeoutMs": 5000,
+        "CommandAttempt": 5
+      },
+      "SdrEx": {
+        "MaxTimeToWaitForResponseForListMs": 2000
+      },
+      "Missions": {
+        "CommandTimeoutMs": 1000,
+        "AttemptToCallCount": 3
+      },
+      "MissionsEx": {
+        "DeviceUploadTimeoutMs": 3000
+      },
+      "Params": {
+        "ReadAttemptCount": 3,
+        "ReadTimeouMs": 1000
+      },
+      "ParamsEx": {
+        "ReadListTimeoutMs": 5000,
+        "ReadAttemptCount": 3,
+        "ReadTimeouMs": 1000
+      },
+      "SerialNumberParamName": "BRD_SERIAL_NUM",
+      "Heartbeat": {
+        "HeartbeatTimeoutMs": 2000,
+        "LinkQualityWarningSkipCount": 3,
+        "RateMovingAverageFilter": 3
+      },
+      "RequestInitDataDelayAfterFailMs": 5000
+    },
+    "Adsb": {
+      "Adsb": {
+        "TargetTimeoutMs": 10000
+      },
+      "Heartbeat": {
+        "HeartbeatTimeoutMs": 2000,
+        "LinkQualityWarningSkipCount": 3,
+        "RateMovingAverageFilter": 3
+      },
+      "RequestInitDataDelayAfterFailMs": 5000
+    },
+    "WrapToV2ExtensionEnabled": true
+  },
+  "Distance": 0,
+  "AmplitudeModulation": 0,
+  "Phase": 0,
+  "PlaningPageView": {
+    "Columns": "1*,5,3*,5,1*",
+    "Rows": "0,3*,5,1*"
+  },
+  "PlanningPageViewModelConfig": {
+    "Zoom": 8.0,
+    "MapCenter": {
+      "Longitude": 37.55126953125,
+      "Latitude": 55.78892895389263,
+      "Altitude": 0.0
+    }
+  },
+  "NavigationServiceConfig": {},
+  "Temperature": 0,
+  "AppServiceConfig": {},
+  "Sdm": 0,
+  "FixedModeSavedCoords": {
+    "Coords": []
+  },
+  "FlightPageView": {
+    "Columns": "1*,5,3*,5,1*",
+    "Rows": "0,3*,5,1*"
+  }
+}
