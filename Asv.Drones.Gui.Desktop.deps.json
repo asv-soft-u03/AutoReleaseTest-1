@@ -34,6 +34,9 @@
           "System.Reactive": "6.0.0"
         },
         "runtime": {
+          
+          
+          
           "lib/net7.0/Asv.Cfg.dll": {
             "assemblyVersion": "1.13.0.0",
             "fileVersion": "1.13.0.0"
